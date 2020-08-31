@@ -6,12 +6,43 @@
     --default:rgb(12, 132, 252);
     
 }
+.body{
+    background-color: var(--default);
+}
+/*header*/
+header{ 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width:100vw;
+    height: 20vh;
+    border: solid black;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(52, 125, 235)
+}
+.countdown{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.timer-text{
+    padding: 20px;
+    margin: 0;
+    border-radius:10px;
+    background: var(--default);
+    box-shadow:0 0 10px 2px;
+}
+/*main*/
 main{
     padding:0;
     margin: 0;
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     justify-content: center;
     align-items: center;
     background-color: var(--default);
